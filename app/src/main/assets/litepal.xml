@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="memo"></dbname>//数据库的名字
+    <version value="1"></version>//数据库的版本号
+
+    <list>
+        <mapping class="com.example.administrator.memo_20170217.db.Memo"></mapping>//利用面向对象的思想，通过创建实体类来创建数据库表，在此引入。
+        //引入时必须是完整的类名。
+    </list>
+</litepal>
